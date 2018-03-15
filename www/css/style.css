@@ -1,0 +1,271 @@
+.login {
+	margin: auto;
+    width: 50%;
+    padding-top: 200px;
+	
+}
+
+.submenupadding {
+	
+	padding-left: 30px;
+	
+}
+
+
+.showStatusError {
+    position: absolute;
+    top: 70px;
+    left: 235;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4a24;
+    padding-left: 30px;
+    font-weight: bold;
+}
+ 
+.showStatusOK {
+    position: absolute;
+    top: 70px;
+    left: 235;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    background-color: #12c33f;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.forgotPassword {
+	cursor: pointer;
+	padding: 30px;
+    text-align: center;
+}
+
+.categoryresult {
+    margin: 10px;
+    background-color: #f7f7f9;
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+.pageMasthead {
+    height: 200px;
+    background: #08749a; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #08749a , #00a6d6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #08749a, #00a6d6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #08749a, #00a6d6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #08749a , #00a6d6); /* Standard syntax (must be last) */
+
+}
+
+.subcategoryresult {
+
+    margin: 10px;
+    background-color: #f7f7f9;
+    width: 460px;
+    padding: 10px;
+    font-size: 15px;
+  /*  font-weight: bold; */
+    margin-left: 50px;
+}
+
+.categoryresult.category_.disabled {
+    background-color: #fdb13f;
+}
+.categoryresult .icon.icon-lock {
+    background-color: red;
+    padding: 3px;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: #fdb13f;
+}
+
+.toggle.btn {
+    float: right;
+}
+
+.btn.btn-default.toggle-off {
+    background-color: #dcdcdc;
+}
+
+#accordion .card {
+    margin: 40px;
+    border: none;
+}
+
+#accordion .card-header {
+
+    border: 1px solid #00a7d6;
+	text-decoration: none;
+}
+
+#accordion .card-header A {
+
+	text-decoration: none;
+}
+
+#accordion .card-header .icon {
+    float: right;
+    font-size: 30px;
+    color: #00a7d6;
+}
+
+#accordion .card-header H3 {
+   display:inline-block;
+   padding-top: 7px;
+    }
+
+
+	
+/* Whitelist CSS */
+
+input.whitelistInput {
+    background-color: #f7f7f9;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+	width: 500px;
+}
+
+button.whitelistSave {
+	background-color: #00a7d6; 
+    padding: 10px;
+	border: none;
+    font-size: 20px;
+    color: white;
+	cursor: pointer;
+}
+
+button.whitelistDelete {
+	background-color: #f7bf5e;
+    padding: 10px;
+	border: none;
+    font-size: 20px;
+    color: white;
+	cursor: pointer;
+}
+
+.whitelistInputLine {
+    margin: 10px;
+}
+
+/* Blacklist CSS */
+input.blacklistInput {
+    background-color: #f7f7f9;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+	width: 500px;
+}
+
+button.blacklistSave {
+	background-color: #00a7d6;
+    padding: 10px;
+	border: none;
+    font-size: 20px;
+    color: white;
+	cursor: pointer;
+}
+button.blacklistDelete {
+	background-color: #f7bf5e;
+    padding: 10px;
+	border: none;
+    font-size: 20px;
+    color: white;
+	cursor: pointer;
+}
+
+.blacklistInputLine {
+    margin: 10px;
+}
+
+.device {
+	    width: 230px;
+    height: 200px;
+    display: inline-block;
+    background-color: #1f8dd6;
+    margin: 20px;
+    color: white;
+    padding: 20px;
+	
+}
+
+.blockedDomainHeader {
+	height: 60px;
+    width: 800px;
+    background-color: #1f8dd6;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid white;
+	font-size: 20px;
+}
+
+.blockedDomain {
+	height: 60px;
+	width: 267px;
+    display: inline-block;
+	background-color: #1f8dd6;
+	color: white;
+    padding: 20px;
+	border-bottom: 1px solid white;
+}
+
+.blockedDomainCount {
+	height: 60px;
+	width: 266px;
+    display: inline-block;
+	background-color: #1f8dd6;
+	color: white;
+    padding: 20px;
+	border-bottom: 1px solid white;
+}
+
+/* TimeTable CSS */
+
+.timeselected {
+background-color: #33d8f3;
+border: 1px solid white;
+}
+
+.usageDropdown {
+	display: inline-block;
+	
+}
+
+.additionalSettings {
+    padding-top: 20px;
+}
+
+/* Center the loader */
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 3555;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display:none;
+ 
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

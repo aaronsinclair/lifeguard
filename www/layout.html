@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>
+        Safe Surfer
+    </title>
+    <!-- <script src="https://use.typekit.net/tzc4awi.js"></script> -->
+	<script src="https://use.typekit.net/hdm1ttd.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,400italic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="dist/toolkit.css" rel="stylesheet">
+	<link href="dist/bootstrap-toggle.min.css" rel="stylesheet">
+	<link href="assets/daterangepicker/daterangepicker.css" rel="stylesheet">
+	<link href="/assets/timepicker/stylesheets/wickedpicker.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+    <!-- NAVBAR -->
+     <!-- NAVBAR -->
+    <nav class="navbar app-navbar">
+        <ul class="nav nav-pills navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span class="icon icon-user"></span>
+                    
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="wifisetup.php">
+                    <span class="icon icon-cog"></span>
+					Wifi 
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="logout.php">
+                    <span class="icon icon-log-out"></span>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--/ NAVBAR -->
+    <!--/ NAVBAR -->
+
+    <div class="with-iconav">
+
+       <!-- SIDEBAR -->
+
+
+
+        <nav class="iconav">
+            <a class="iconav-brand" href="index.html">
+                <span>
+                    <img src="assets/img/SafeSurfer.svg" alt="Safe Surfer" />
+                </span>
+            </a>
+            <div class="iconav-slider">
+                <ul class="nav nav-pills iconav-nav flex-md-column">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.php" title="There's no place like : : 1" data-toggle="tooltip" data-placement="right" data-container="body">
+                            <span class="icon icon-home"></span>
+                            <small class="iconav-nav-label">Home</small>
+                        </a>
+                    </li>
+					
+					
+					 <li class="nav-item">
+                        <a class="nav-link " href="stopInternet.php" title="Stop Internet Access Immediately" data-toggle="tooltip" data-placement="right" data-container="body" style="color: ">
+                            <span class="icon icon-block"></span>
+                            <small class="iconav-nav-label">Stop Internet</small>
+                        </a>
+                    </li>
+					
+					<li class="nav-item">
+                        <a class="nav-link " href="screentime.php" title="Internet Time Restrictions" data-toggle="tooltip" data-placement="right" data-container="body">
+                            <span class="icon  icon-gauge"></span>
+                            <small class="iconav-nav-label">Screen Time</small>
+                        </a>
+                    </li>
+					
+					<li class="nav-item">
+                        <a class="nav-link " href="usage.php" title="Reports on what sites have been accessed" data-toggle="tooltip" data-placement="right" data-container="body">
+                            <span class="icon  icon-area-graph"></span>
+                            <small class="iconav-nav-label">Usage Reports</small>
+                        </a>
+                    </li>
+					
+					
+					   <li class="nav-item">
+                        <a class="nav-link " title="View and set device usage limits and blocking criteria" data-toggle="tooltip" data-placement="right" data-container="body">
+                            <span class="icon icon-mobile"></span>
+                            <small class="iconav-nav-label">Block Sites</small>
+                        </a>
+                    </li>
+					
+					
+					
+					<li class="nav-item systemmenu">
+                        <a class="nav-link  " href="#" title="System" data-toggle="tooltip" data-placement="right" data-container="body" >
+                            <span class="icon icon-network"></span>
+                            <small class="iconav-nav-label">System</small>
+                        </a>
+						
+                    </li>
+					
+					
+					
+							<div class='systemsubmenu' style="display:">
+							<ul class="nav nav-pills iconav-nav flex-md-column ">
+								 <li class="nav-item">
+									<a class="nav-link "  href="http://mydevice.safesurfer.co.nz/systeminfo.php" title="See detailed system performance information" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">System Info</small>
+									</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link "  href="wifisetup.php" title="Configure your wifi, reset passwords etc" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">Wifi Setup</small>
+									</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link "  href="restartWifi.php" title="Restart the WiFi adaptor" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">Restart WiFi</small>
+									</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link "  href="timezone_www.php" title="View and set timezone information" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">Timezone</small>
+									</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link "  href="updateFirmware_www.php" title="Keep your device up to date with the latest Lifeguard firmware" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">Update Firmware</small>
+									</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link "  href="rebootDevice.php" title="Reboot the Lifeguard device" data-toggle="tooltip" data-placement="right" data-container="body">
+										
+										<small class="iconav-nav-label submenupadding">Reboot Lifeguard</small>
+									</a>
+								</li>
+								
+							</ul>
+							</div>
+					
+					
+					
+					<li class="nav-item">
+                        <a class="nav-link " href="/logout.php" title="Logout" data-toggle="tooltip" data-placement="right" data-container="body">
+                            <span class="icon icon-log-out"></span>
+                            <small class="iconav-nav-label">Logout</small>
+                        </a>
+                    </li>
+					
+					
+                </ul>
+            </div>
+        </nav>
+        <!--/ SIDEBAR -->
+		
+        <div class="container-fluid">
+
+	      <h1>Safesurfer Lifeguard</h1>
+		  <p>Your Safesurfer Lifeguard device provides your home/office with 24/7 protection against offensive content, spyware, malware and more.</p>  <p>By default, certain content categories are blocked, however you can choose what categories to block (with the exception of Pornography) and allow by clicking on the "MANAGE DEVICES" link in the menu. </p>
+		 
+		
+		
+		
+
+        </div>
+		
+	</div>
+		
+        <!--/ CONTENT -->
+
+        <!-- FOOTER -->
+       
+        <!--/ FOOTER -->
+
+    <!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close" id='closepopupmodal'>&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="img01">
+
+	  <!-- Modal Caption (Image Text) -->
+	  <div id="caption"></div>
+	</div>
+
+    <div id="pageModal" class="modal fade modal-lg" tabindex="-1" role="dialog" aria-labelledby="pageModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>...</p>
+                  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/tablesorter.min.js"></script>
+    <script src="dist/toolkit.js"></script>
+	<script src="dist/bootstrap-toggle.min.js"></script>
+	 <script src="js/menu.js"></script>
+	 <script src="js/index.js"></script>
+	<script src="/js/sessionActiveCheck.js"></script>
+
+</body>
+</html>
